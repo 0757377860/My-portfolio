@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    background-image: url(../images/n2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 5%;
+    height: 10%;
+    float: initial;  
+}
+nav{
+    display: inline-block;
+    /* width: 80%; */
+    padding: 20px 20px;
+    margin-right: 5rem;
+    justify-content: space-between;
+    font-weight: 800;
+}
+.nav ul li{
+    display: inline-block;
+    /* list-style-type: none; */
+    /* padding: 10px 20px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px 20px;
+    /* margin-right: 20px; */
+    /* float: right; */
+}
+.detel{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detel h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    top: -5rem;
+    margin-top: -10rem;
+}
+.detel p{
+    color: rgb(207, 216, 207);
+    margin-left: 2rem;
+}
+.images{
+width: 50%;
+height: 100%;
+position: absolute;
+bottom: 0;
+margin-top: -100px;
+right: 100px;
+}
+.images img{
+    height: 80%;
+    width: 80%;
+    margin-top: -100px;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+/* ------------------about----------------- */
+.section{
+    width: 100%;
+    min-height: 65%;
+    background-color: gray;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 7rem;
+    margin-top: 0rem;
+    /* padding-bottom: -800rem; */
+}
+.content-section{
+    float: none;
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 0;
+}
+.image-section img{
+    width: 30%;
+    height: 20%;
+    position: relative;
+    top: -15rem;
+    margin-left: -5rem;
+}
+.content-section .content h3{
+    margin-top: 1.5rem;
+}
+.content-section .content p{
+font-style: italic;
+font-weight: 500;
+font-size: larger;
+}
+/* ----------------------------------------------------- */
+
+.about p{
+    margin-left: 2rem;
+    width: 550px;
+    padding-right: 10rem;
+}
+.button{
+    margin-left: 2rem;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* --------------------------------skills--------------------- */
+.my-skills{
+background-color: gray;
+padding-top: 4rem;
+padding-bottom: 4rem;
+text-align: center;
+padding-top: 2rem;
+margin-top: 5rem;
+}
+.my-skills .text-center{
+    background-color: white;
+    margin-top: -5rem;
+}
+.my-skills::after{
+    content: '';
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+}
+.my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right{
+width: 25%;
+display: block;
+float: left;
+box-sizing: border-box;
+background-color: gray;
+}
+/* ----------------services------------------ */
+.main{
+    width: 100%;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+}
+.my-services .sub-title{
+    margin-top: 2rem;
+}
+.service{
+    background: gray;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    top: -10rem;
+}
+/* -------------------------------------contact-------------------- */
+.contact{
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: -12rem;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+.contact .content h2{
+    text-transform: uppercase;
+    margin-left: -50rem;
+    top: 5rem;
+    }
+.container .contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 0;
+    }
+.container .Contactinfo{
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin: 0;
+    }
+.container .Contactinfo .box{
+    position: relative;
+    display: block;
+    margin: 0;
+   }
+.container .Contactinfo .box .text{
+    /* padding-top: 5rem; */
+    margin: 0;
+    top: -20rem;
+}
+     /* --------------------ctnt---------- */
+nav{
+    display: flex;
+    align-items: left;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 55%;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    padding: 20px 20px;
+    margin-right: 20px;
+    /* text-decoration: none; */
+}
+
